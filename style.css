@@ -7,7 +7,6 @@
 body, html {
   font-family: 'Rubik', sans-serif;
   height: 100%;
-  overflow-y: hidden;
 }
 .phone {
   max-width: 375px;
@@ -214,6 +213,7 @@ svg {
 @media screen and (max-width: 655px) {
   .phone {
     width: 100%;
+    margin: 0;
   }
   .right-side {
     width: 100%;
@@ -232,5 +232,11 @@ svg {
     line-height: 25px;
     width: 100%;
     padding: 0 25px 25px 25px;
+  }
+  .images-dog img{
+    width: 70px;
+    margin: 1%;
+    height: 70px;
+    border-radius: 15px;
   }
 }
